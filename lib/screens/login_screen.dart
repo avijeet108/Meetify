@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meetify/widgets/custom_button.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -15,13 +16,20 @@ class _LoginScreenState extends State<LoginScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text(
-            'Start Or Join a Meeting',
+            'Start or join a meeting',
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
             ),
           ),
-          Image.asset('assets/images/onboarding.jpg')
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 42.0),
+            child: Image.asset('assets/images/onboarding.jpg'),
+          ),
+          CustomButton(
+            text: 'Google Sign In',
+            onPressed: () {},
+          )
         ],
       ),
     );
