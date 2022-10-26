@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "342199643812",
+    "project_id": "meetify-35708",
+    "storage_bucket": "meetify-35708.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342199643812:android:203e6dccd2972a5a154031",
+        "android_client_info": {
+          "package_name": "com.example.meetify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342199643812-gpniib82ne7idfbht0bh6k00n9cqhan3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meetify",
+            "certificate_hash": "2b129dc991bfedd9fd394586707ee65da2d42e20"
+          }
+        },
+        {
+          "client_id": "342199643812-q8o8f2kl4hf14mfqq9amotmtrvihkboh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ0myiVvWyxnvzakkQ8aEFrpsY8vnEAJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342199643812-q8o8f2kl4hf14mfqq9amotmtrvihkboh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
