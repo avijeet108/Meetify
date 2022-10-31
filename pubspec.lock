@@ -184,6 +184,29 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.17.0"
+  jitsi_meet:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: master
+      resolved-ref: "2a19d529776f45bdcad4adcc1f87b123f5b82b26"
+      url: "https://github.com/dispersik/jitsi_meet_fork"
+    source: git
+    version: "4.0.0"
+  jitsi_meet_platform_interface:
+    dependency: transitive
+    description:
+      name: jitsi_meet_platform_interface
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
+  jitsi_meet_web_plugin:
+    dependency: transitive
+    description:
+      name: jitsi_meet_web_plugin
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   js:
     dependency: transitive
     description:
