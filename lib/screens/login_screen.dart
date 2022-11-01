@@ -19,15 +19,24 @@ class _LoginScreenState extends State<LoginScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text(
-            'Start or join a meeting',
+            'Meetify',
             style: TextStyle(
-              fontSize: 24,
+              fontSize: 40,
               fontWeight: FontWeight.bold,
             ),
           ),
+          const SizedBox(
+            height: 25,
+          ),
+          const Text(
+            'Sign In to continue',
+            style: TextStyle(
+              fontSize: 20,
+            ),
+          ),
           Padding(
-            padding: const EdgeInsets.symmetric(vertical: 42.0),
-            child: Image.asset('assets/images/onboarding.jpg'),
+            padding: const EdgeInsets.symmetric(vertical: 50.0, horizontal: 50),
+            child: Image.asset('assets/images/onboarding.png'),
           ),
           CustomButton(
             text: 'Google Sign In',

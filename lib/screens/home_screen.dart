@@ -13,6 +13,11 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  onLogOut() async {
+    AuthMethods().signOut();
+    Navigator.pushNamed(context, '/login');
+  }
+
   int _Page = 0;
   onPageChanged(int Page) {
     setState(() {
@@ -23,8 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
   List<Widget> pages = [
     MeetingScreen(),
     const HistoryMeetingScreen(),
-    const Text('Contacts'),
-    CustomButton(text: 'Log Out', onPressed: () => AuthMethods().signOut())
+    const Text('Help Center'),
   ];
 
   @override
@@ -33,36 +37,39 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: backgroundColor,
         elevation: 0,
-        title: const Text('Meet & Chat'),
+        title: const Text('Meetify'),
         centerTitle: true,
+        actions: [
+          GestureDetector(
+            onTap: onLogOut,
+            child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 15),
+                child: const Icon(
+                  Icons.logout_outlined,
+                  color: buttonColor,
+                )),
+          )
+        ],
       ),
       body: pages[_Page],
       bottomNavigationBar: BottomNavigationBar(
           backgroundColor: footerColor,
-          selectedItemColor: Colors.white,
-          unselectedItemColor: Colors.grey,
+          selectedItemColor: buttonColor,
+          unselectedItemColor: Colors.white,
           onTap: onPageChanged,
           currentIndex: _Page,
           items: const [
             BottomNavigationBarItem(
-              icon: Icon(Icons.comment_bank),
-              label: 'Meet & Chat',
+              icon: Icon(Icons.home_outlined),
+              label: 'Home',
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.lock_clock),
               label: 'Meetings',
             ),
             BottomNavigationBarItem(
-              icon: Icon(
-                Icons.person_outline,
-              ),
-              label: 'Contacts',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.settings_outlined,
-              ),
-              label: 'Settings',
+              icon: Icon(Icons.help_outline),
+              label: 'Help',
             ),
           ]),
     );

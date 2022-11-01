@@ -28,6 +28,7 @@ class MeetingOption extends StatelessWidget {
             ),
           ),
           Switch.adaptive(
+            activeColor: buttonColor,
             value: isMute,
             onChanged: onChange,
           ),
