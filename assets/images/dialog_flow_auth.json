@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "meetifybot-gwrr",
+  "private_key_id": "64c471d5623eb1939069ca11d50f3340fe519ecc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC+c/b79FljYxr0\nvcTSgFyK8qd3GXDgppO7FcueByJ86Uv9jG5QQFEutSLy6fVftdFmJzMC5O7sCOLD\nIJWNj+1i1H+oHaH6Iqhn0x/JKFAyRmZbZuerQaI1mielCWHFRn/4QmrZeN2cKwlz\nlzlOrPEhr88yPu0c0bbf4Sns2mGIvtZ3SCvN3eRq8XuL67JAzXDqUJKF24xeTTOH\n8WoIHCkouomWHYmX7E8VZDbttgX4VFzMjyDvtzNFLR//gnD0t/K9hp0APFF/0M/P\nN6IIRUOFFj+yuerIw8gD8GrcNaWiefEm738is7SXi/gkhox0UsCgK41UI7yKaAya\ny99M1wd3AgMBAAECggEAFrhqOD06m2MLqIjUaIcMWJMsK/GACCeMgN7PxLwgftBX\nfW75tgnbkCaR0x2FZUlL1X5K//G5wwooVejsOSV4x2KHEXzqLEINicf5BxwPvSpY\nNFfpaVfSIceQf91yVCuIlrWts4tPZ2hcSfWPePWkFUW5AnXZVFJ8bjxEA8/ln39t\nGAlqxjV/7QRf1pBQjyobMigHBgDHbaSWHyexken3LeUio2FvkroI3CUlmLijl6J/\nHRfuutkW5EHK/MF+aEPKd4QEcD9K6dMwqfOMf/RWqR00EkEsRef5mmo5v4qr75Bn\n1SmGWIIQd7EXQGLK/3lIfKqclIJ7sEPZvdLxznMgqQKBgQD2M2J54oKtKe5reAw2\nzicUwwIuzlhZsTlR8Xkot2otxl5KlRtFLZPJqOyyl2Eh34ToozWw31hpaymx+L0N\niHeeZdxu6vGMwIjqJBu1Ct5h/qaHlKxOML9V2DnAl/+sAUMnmOeTpdcGJqpIEZMR\nMNieEA3okJQUNFLrp+O/2THGWwKBgQDGCIyYVkmr+oyGZJ0TA1Jh/sBf9hS6mkKz\nhqvsLEnotABk1q4QMe46MekGhN0HRr8lEQfCYKQ8M9xyMFFZzd0+zxjuXdEhxIyW\niJRaSEJJSRnszwCSyjzj3YyjjPxrC7IeidmSNLbty/pKfOhkBJFJNoEfEWmPNVfZ\nU9lNWGTmFQKBgF+AgzygfuxJDbEmeiZwRXyqQJiDdoYkVwXQU51VuJxVDJKF0HQ/\nP8rD+j00t3r6R4YueU9I8/TAmwXsZPlw7GXHQYDNJjHhJbsdkpnhw23j6BlDtKsI\nAdB89bodvBGu06vyhjIh7Iz4Rql6F8BdYEnAFIUYQDiuK1Q6ZgAvcj1tAoGAYDtx\nTunHfSoQtZIY/k9D7ljkVP15D0C9Hw5XZzoSZGFsO5RTG42X7XGpgkB4Q/vuEO4Y\nri1WQecVveua7J/sXoQ24kZ2xQkFJHWUWdb5VzGNxpTE+5AJTNWxbRyq4L3bPZnR\nP4ocRqwzoZTXPRs3GrPAxT8p46yRVwu28i39Qg0CgYAoCWa51iI82G4KnNhdQSJQ\nlyRhN7LAKs47ca8zR3bUjZRmSzTodGtUcB0iBMcs0rG3WReBYv9tY1ffxjDeBkS/\n7wRKwRPLHOO9d9EhQ5woxcUQNHpB7ba9CIux+KO+wChXcc2imeWAByZOZzO3H/Pa\n0bpmpjA2zm08bnTDJar+zg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "meetifybot@meetifybot-gwrr.iam.gserviceaccount.com",
+  "client_id": "113484659425073516536",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/meetifybot%40meetifybot-gwrr.iam.gserviceaccount.com"
+}

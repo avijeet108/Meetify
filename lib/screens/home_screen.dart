@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:meetify/resources/auth_methods.dart';
+import 'package:meetify/screens/help_screen.dart';
 import 'package:meetify/screens/history_meeting_screen.dart';
 import 'package:meetify/screens/meeting_screen.dart';
 import 'package:meetify/utils/colors.dart';
-import 'package:meetify/widgets/custom_button.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
   List<Widget> pages = [
     MeetingScreen(),
     const HistoryMeetingScreen(),
-    const Text('Help Center'),
+    HelpScreen(),
   ];
 
   @override

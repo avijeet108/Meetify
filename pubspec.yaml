@@ -34,6 +34,7 @@ dependencies:
   flutter:
     sdk: flutter
   google_sign_in: 
+  dialog_flowtter:
   jitsi_meet:
     git:
       url: https://github.com/dispersik/jitsi_meet_fork
