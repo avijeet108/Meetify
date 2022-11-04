@@ -10,6 +10,9 @@
 * **Jitsi Meet Plugin** to provide the video calling interface.
 * **Google Dialogflow** to create help section of the application as ChatBot.
 
+## Download APK
+[Click to download](https://drive.google.com/file/d/15cRohl1xfJSCAXoJ8yS-VQEKJ0GsJPEj/view?usp=sharing)
+
 ## Sample Screens
 
 ### Log In
